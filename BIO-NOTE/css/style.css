@@ -1,3 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 body{
-    background: red;
+	background-color:#f6f5f5;
+	margin:0px;
+    padding: auto;
+    font-family: 'Poppins';
+    width:100%;
+	height:95vh;
+	background-image:src("images/bg.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	position: relative;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height:60px;
+	background-color:#ffffff;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%;	
+}
+nav ul{
+	display: flex;
+}
+.toggle{
+	display: none;
+}
+nav ul li a{
+	margin:20px;
+	color:#505050;
+	font-size: 15px;
+	font-weight:700;
+}
+.logo{
+	color:#000000;
+	font-size: 22px;
+}
+.active{
+	color:#2d2a2a;
+	font-weight:bold;
+}
+
+.body button{
+	width:130px;
+	height:42px;
+	border-radius:10px;
+	font-weight:bold;
+	font-size: 14px; 
+	outline:none;
+	margin:5px 50px;
+	
+}
+.body{
+	position: absolute;
+	left:20%;
+	top:20%;
+	transform:translate(-13%,0%);
+}
+.btnTwitter{
+	border:2px solid #1da1f2;
+	color:#373636;
+	background-color:transparent;
+	
+}
+.btnGit{
+	border:2px solid #333;
+	color:#373636;
+	background-color:transparent;
+}
+.btnLinked{
+    border:2px solid #0077b5;
+	color:#373636;
+	background-color:transparent;
+}
+
+button:active{
+	transform:scale(1.1);
 }
